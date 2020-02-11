@@ -4,7 +4,7 @@
 * [blog entry](https://portfolio.newschool.edu/anniegmildrew/2020/01/28/project/)
 
 ## Homework Week 2
-* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/template/index.html)
+* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk2/sketch.js)
 * [sketch 2]()
 * [sketch 3]()
 
