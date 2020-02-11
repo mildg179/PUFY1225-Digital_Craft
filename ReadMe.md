@@ -9,7 +9,7 @@
 * [sketch 3](http://mildg179.github.io/PUFY1225-Digital_Craft/wk2/wk2/sketch3/sketch3.js)
 
 ## Homework Week 3
-* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk3/sketch1/GenerativeArt1.js)
+* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk3/sketch1/index.html)
 * [sketch 2](http://mildg179.github.io/PUFY1225-Digital_Craft/wk3/sketch2/GenerativeArt2.js)
 * [sketch 3](http://mildg179.github.io/PUFY1225-Digital_Craft/wk3/sketch3/GenerativeArt3.js)
 
