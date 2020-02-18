@@ -4,11 +4,11 @@ yRad = 90;
 var odds;
 
 function setup() {
-  createCanvas(400, 400, SVG);
+  createCanvas(400, 400);
 }
 
 function draw() {
-  background("#000000");
+  background("white");
   
 fill('Red');
 textSize(45);
