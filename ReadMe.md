@@ -16,4 +16,7 @@
 ## Homework Week 4
 * [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk4/index.html)
 
+## Homework Week 5
+* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk5/js/sketch.js)
+
 ![alternate text](web address)
