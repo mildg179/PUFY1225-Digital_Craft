@@ -1,42 +1,28 @@
-function setup() {
-  createCanvas(400, 400);
-}
+let timer = 5
 
-function draw() {
-  background("white");
-  strokeWeight(5);
-  fill("white");
-  rect(0, 0, 75, 50);
-  fill("white");
-  rect(75, 0, 100, 50);
-  fill("yellow");
-  rect(150, 0, 100, 50);
-  fill("yellow");
-  rect(150, 50, 100, 100);
-  fill("white");
-  rect(-50, 50, 75, 100);
-  fill("white");
-  rect(-50, 150, 75, 150);
-  fill("yellow");
-  rect(-50, 300, 75, 150);
-  fill("red");
-  rect(25, 50, 125, 200);
-  fill("black");
-  rect(25, 250, 60, 100);
-  fill("white");
-  rect(90, 250, 60, 50);
-  fill("white");
-  rect(90, 300, 60, 50);
-  fill("black");
-  rect(90, 350, 60, 50);
-  fill("blue");
-  rect(150, 300, 100, 100);
-  fill("white");
-  rect(150, 150, 50, 100);
-  fill("white");
-  rect(200, 150, 50, 100);
-  fill("red");
-  rect(250, 300, 100, 100);
-  fill("white");
-  rect(250, 0, 100, 300);
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function draw() { 
+  background(220);
+  textAlign(CENTER, CENTER);
+  textSize(100);
+  text(timer, width/2, height/2);
+  
+  // while (timer > 0) {  // this doesn't work because it's all happening at the same time
+  //   timer --;
+  // }
+  
+  // frameCount --> this keeps track of the number of times the program has gone throught the code, 60 = 1 second
+  // % ---> this is the Modulo operator, it divides numbers and evaluates to the remainder: 17 % 5 evaluates to 2 remainder
+  // this can be used to determine if the number on the left is divisible by the number on the right
+  
+  if (frameCount % 60 == 0 && timer > 0) { // if the frameCount is divisible by 60, then a second has passed. it will stop at 0
+    timer --;
+  }
+  if (timer == 0) {
+    text("GAME OVER", width/2, height*0.7);
+  }
+  
 }
