@@ -22,5 +22,10 @@
 ## Homework Week 6
 * [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk6/countdown.js)
 
+## Homework Week 7
+* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk4/index.html)
+
+## Homework Week 9
+* [sketch 1](http://mildg179.github.io/PUFY1225-Digital_Craft/wk4/index.html)
 
 ![alternate text](web address)
